@@ -1,0 +1,14 @@
+void InsertionSort(int a[], int n)
+{
+	int temp ;
+	for(int i = 1; i < n; ++i)
+	{
+		int j;
+		temp = a[i];
+		for(j = i; j >0 && temp < a[j-1]; --j)  //a[j]前的序列都是排好序的,在找到那个比a[j]小的值前,遍历过的值都向后挪1位
+		{
+				a[j] = a[j-1];
+		}
+		a[j] = temp;
+	}
+}
