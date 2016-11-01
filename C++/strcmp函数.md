@@ -1,4 +1,4 @@
-```
+```C++
 int strcmp(const char* str1. comst char* str2)
 {
     assert(str1 != NULL && str2 != NULL);
