@@ -1,6 +1,6 @@
 - 全局对象的构造函数在main之前执行
 - 通过atexit()注册函数，在main函数后执行
-```
+```C++
 	#include <stdlib.h>
 	#include <stdio.h>`
 	int atexit(void (*function)(void))?
