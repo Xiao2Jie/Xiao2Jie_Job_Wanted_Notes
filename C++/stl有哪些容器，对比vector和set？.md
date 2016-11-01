@@ -1,0 +1,3 @@
+- **序列容器**：vector、list、deque、string
+- **关联容器**：set, multiset,  map, multimap, hash_set, - hash_map, hash_multimap, hash_multiset
+- **其他杂项**：stack, queue, valarray, bitset

@@ -1,0 +1,10 @@
+- malloc/free是**标准库函数**， new/delete是C++**运算符**
+- new不只是分配内存，还会**调用构造函数**，malloc只分配内存，不会进行初始化类成员的操作
+- new**返回对象类型的指针**，malloc返回void*
+- new内存分配失败时会**抛出bad_alloc异常**，而不是返回NULL, malloc会返回NULL:
+- 使用new**不用指定内存块大小**，molloc需要显式指定
+- 对于数组，new需要使用“[ ]”符号
+- new的实现可以基于malloc，malloc的实现不可以调用new
+- new**可以被重载**，malloc不可以
+- malloc分配内存后发现内存不够时可以**realloc重新分配内存，new没有这套机制**
+- new从**自由存储区分配内存**，（凡事通过new申请的内存都被称为自由存储区，它可以使堆，可以使静态存储区），malloc从堆上分配内存。
