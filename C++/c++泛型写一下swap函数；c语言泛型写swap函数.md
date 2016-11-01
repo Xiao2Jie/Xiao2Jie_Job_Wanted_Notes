@@ -1,4 +1,4 @@
-```
+```C++
 //C++
 template<typename T>
 void myswap(T& a, T& b)
@@ -10,7 +10,7 @@ void myswap(T& a, T& b)
 ```
 
 ---
-```
+```C++
 //C
 void myswap(void* a, void *b, int size)
 {
