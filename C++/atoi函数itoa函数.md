@@ -1,5 +1,5 @@
 
-```
+```C++
 //字符串转成数字
 int atoi(char* pStr)
 {
