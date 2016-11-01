@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "editlink",
+        "sectionx",
+        "spoiler",
+        "anchor-navigation",
+        "baidu"
+    ],
+    "pluginsConfig": {
+        "fontsettings": {
+            "theme": "night",
+            "family": "sans",
+            "size": 2
+        }
+    }
+}
