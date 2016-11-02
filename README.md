@@ -1,2 +1,2 @@
 # learning-notes
-学习笔记
+求职笔记
